@@ -1,15 +1,18 @@
-# Global ignores
+# .gitignore
+# Node modules
 node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
 .env
+client/.env
+server/.env
+
+# Build folders
 dist/
 build/
+
+# OS files
 .DS_Store
 Thumbs.db
-
-# Client-specific
-client/node_modules/
-client/.env
-
-# Server-specific
-server/node_modules/
-server/.env
