@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+axios.get(`${process.env.REACT_APP_API_URL}/products`)
+
 
 const AdminDashboard = () => {
   const [products, setProducts] = useState([]);
